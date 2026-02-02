@@ -7,7 +7,7 @@ const foodData = [
     categoryGroup: "Fast & Street Food",
     price: 299,
     desc: "Classic cheese pizza",
-    img: "/src/assets/pizza.jpg",
+    img: "/assets/pizza.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const foodData = [
     categoryGroup: "Fast & Street Food",
     price: 149,
     desc: "Veg patty with sauces",
-    img: "/src/assets/burger.jpg",
+    img: "/assets/burger.jpg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const foodData = [
     categoryGroup: "Fast & Street Food",
     price: 99,
     desc: "Stuffed roll with veggies",
-    img: "/src/assets/roll.jpg",
+    img: "/assets/roll.jpg",
   },
 
   // 🍛 Indian Food
@@ -36,7 +36,7 @@ const foodData = [
     categoryGroup: "Indian Food",
     price: 249,
     desc: "Aromatic rice with spices",
-    img: "/src/assets/biryani.jpg",
+    img: "/assets/biryani.jpg",
   },
   {
     id: 5,
@@ -45,7 +45,16 @@ const foodData = [
     categoryGroup: "Indian Food",
     price: 199,
     desc: "Spiced lentils",
-    img: "/src/assets/dal.jpg",
+    img: "/assets/dal.jpg",
+  },
+  {
+    id: 14,
+    name: "Roti",
+    category: "Roti",
+    categoryGroup: "Indian Food",
+    price: 20,
+    desc: "Freshly made Indian roti",
+    img: "/assets/roti.jpg",
   },
 
   // 🥗 Healthy
@@ -56,7 +65,7 @@ const foodData = [
     categoryGroup: "Healthy",
     price: 129,
     desc: "Healthy veggies mix",
-    img: "/src/assets/salad.jpg",
+    img: "/assets/salad.jpg",
   },
   {
     id: 7,
@@ -65,7 +74,16 @@ const foodData = [
     categoryGroup: "Healthy",
     price: 179,
     desc: "Nutritious mix bowl",
-    img: "/src/assets/healthybowl.jpg",
+    img: "/assets/healthybowl.jpg",
+  },
+  {
+    id: 15,
+    name: "Healthy",
+    category: "Healthy Bowl",
+    categoryGroup: "Healthy",
+    price: 179,
+    desc: "Nutritious healthy bowl",
+    img: "/assets/healthy.jpg",
   },
 
   // 🍗 Non-Veg
@@ -76,7 +94,7 @@ const foodData = [
     categoryGroup: "Non-Veg",
     price: 299,
     desc: "Spicy tandoori chicken",
-    img: "/src/assets/chicken.jpg",
+    img: "/assets/chicken.jpg",
   },
   {
     id: 9,
@@ -85,7 +103,16 @@ const foodData = [
     categoryGroup: "Non-Veg",
     price: 349,
     desc: "Slow-cooked mutton curry",
-    img: "/src/assets/mutton.jpg",
+    img: "/assets/mutton.jpg",
+  },
+  {
+    id: 16,
+    name: "Fish",
+    category: "Fish",
+    categoryGroup: "Non-Veg",
+    price: 299,
+    desc: "Fresh fried fish",
+    img: "/assets/fish.jpg",
   },
 
   // 🍰 Desserts & Sweets
@@ -96,7 +123,7 @@ const foodData = [
     categoryGroup: "Desserts & Sweets",
     price: 179,
     desc: "Soft chocolate cake",
-    img: "/src/assets/cake.jpg",
+    img: "/assets/cake.jpg",
   },
   {
     id: 11,
@@ -105,7 +132,7 @@ const foodData = [
     categoryGroup: "Desserts & Sweets",
     price: 99,
     desc: "Chilled ice cream scoop",
-    img: "/src/assets/icecream.jpg",
+    img: "/assets/icecream.jpg",
   },
 
   // ☕ Beverages
@@ -116,7 +143,7 @@ const foodData = [
     categoryGroup: "Beverages",
     price: 129,
     desc: "Refreshing cold coffee",
-    img: "/src/assets/coffee.jpg",
+    img: "/assets/coffee.jpg",
   },
   {
     id: 13,
@@ -125,42 +152,8 @@ const foodData = [
     categoryGroup: "Beverages",
     price: 149,
     desc: "Creamy strawberry shake",
-    img: "/src/assets/milkshake.jpg",
+    img: "/assets/milkshake.jpg",
   },
-
-  // 🍛 Indian Food
-{
-  id: 14,
-  name: "Roti",
-  category: "Roti",
-  categoryGroup: "Indian Food",
-  price: 20,
-  desc: "Freshly made Indian roti",
-  img: "/src/assets/roti.jpg",
-},
-
-// 🥗 Healthy
-{
-  id: 15,
-  name: "Healthy",
-  category: "Healthy Bowl",
-  categoryGroup: "Healthy",
-  price: 179,
-  desc: "Nutritious healthy bowl",
-  img: "/src/assets/healthy.jpg",
-},
-
-// 🍗 Non-Veg
-{
-  id: 16,
-  name: "Fish",
-  category: "Fish",
-  categoryGroup: "Non-Veg",
-  price: 299,
-  desc: "Fresh fried fish",
-  img: "/src/assets/fish.jpg",
-},
-
 ];
 
 export default foodData;
